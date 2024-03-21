@@ -1,13 +1,11 @@
 package Doit_알고리즘_코딩테스트.자료구조;
 
 import java.io.BufferedReader;
-import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.Scanner;
 import java.util.StringTokenizer;
 
 public class P11659_S구간합구하기 {
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) throws Exception {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer stringTokenizer = new StringTokenizer(bufferedReader.readLine());
         int suNo = Integer.parseInt(stringTokenizer.nextToken());
