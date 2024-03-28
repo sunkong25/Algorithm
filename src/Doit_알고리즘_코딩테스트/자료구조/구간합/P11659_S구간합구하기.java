@@ -1,4 +1,4 @@
-package Doit_알고리즘_코딩테스트.자료구조;
+package Doit_알고리즘_코딩테스트.자료구조.구간합;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
