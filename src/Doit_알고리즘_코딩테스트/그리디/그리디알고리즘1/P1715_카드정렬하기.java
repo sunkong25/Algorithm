@@ -1,4 +1,4 @@
-package Doit_알고리즘_코딩테스트.그리디.그리디알고리즘;
+package Doit_알고리즘_코딩테스트.그리디.그리디알고리즘1;
 
 import java.util.PriorityQueue;
 import java.util.Scanner;
