@@ -3,7 +3,7 @@ package 코딩테스트_대비_입문.DFS_BFS_활용;
 
 import java.util.Scanner;
 
-public class P75_중복순열 {
+public class P76_중복순열 {
 	static int n, m;
 	static int[] s;
 
@@ -22,7 +22,7 @@ public class P75_중복순열 {
 	}
 
 	public static void main(String[] args) {
-		P75_중복순열 T = new P75_중복순열();
+		P76_중복순열 T = new P76_중복순열();
 		Scanner sc = new Scanner(System.in);
 
 		n = sc.nextInt();
