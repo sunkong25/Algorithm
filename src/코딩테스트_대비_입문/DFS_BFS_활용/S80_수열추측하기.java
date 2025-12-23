@@ -2,7 +2,7 @@ package 코딩테스트_대비_입문.DFS_BFS_활용;
 
 import java.util.Scanner;
 
-public class S81_수열추측하기 {
+public class S80_수열추측하기 {
 	static int[] b, ch, p;
 	static int[][] dy = new int[35][35];
 	static boolean flag = false;
@@ -36,7 +36,7 @@ public class S81_수열추측하기 {
 	}
 
 	public static void main(String[] args) {
-		S81_수열추측하기 T = new S81_수열추측하기();
+		S80_수열추측하기 T = new S80_수열추측하기();
 		Scanner sc = new Scanner(System.in);
 
 		n = sc.nextInt();
