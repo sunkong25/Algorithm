@@ -40,7 +40,7 @@ public class S96_원더랜드_프림 {
 				check[now] = 1;
 				answer += nowCost;
 				for (Edge nE : edge.get(now)) {
-					pQ.offer(nE);
+					if(check[nE.vertex] == 0) pQ.offer(nE);
 				}
 			}
 		}
