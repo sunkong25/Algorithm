@@ -8,10 +8,14 @@ public class S04_문자찾기 {
 		input = input.toLowerCase();
 		t = Character.toLowerCase(t);
 
-		for (int i = 0; i < input.length(); i++) {
+		/*for (int i = 0; i < input.length(); i++) {
 			if (input.charAt(i) == t) {
 				answer++;
 			}
+		}*/
+
+		for (char c : input.toCharArray()) {
+			if(c == t) answer++;
 		}
 
 		return answer;
