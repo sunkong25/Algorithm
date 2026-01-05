@@ -1,4 +1,4 @@
-package 코딩테스트_대비_입문.Recursive_Tree_Graph;
+package 코딩테스트_대비_입문.recursive_tree_graph;
 
 
 class NodeD {
