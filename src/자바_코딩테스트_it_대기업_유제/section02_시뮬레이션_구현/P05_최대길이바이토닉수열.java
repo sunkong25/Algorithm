@@ -1,10 +1,30 @@
 package 자바_코딩테스트_it_대기업_유제.section02_시뮬레이션_구현;
 
+import java.util.Scanner;
+
 public class P05_최대길이바이토닉수열 {
 	public int solution(int[] nums){
 		int answer = 0;
+		int count = 1;
+		boolean flag = false;
 
-
+		for (int i = 1; i < nums.length; i++) {
+			if(flag == false){
+				if(nums[i] > nums[i-1]) count++;
+				else if (nums[i] < nums[i - 1] && count != 0) {
+					flag = true;
+					count++;
+				}
+			} else if (flag == true) {
+				if(nums[i] < nums[i - 1]) count++;
+				if (nums[i] > nums[i - 1]) {
+					i--;
+					count = 1;
+					flag = false;
+				}
+			}
+			answer = Math.max(answer, count);
+		}
 
 		return answer;
 	}
