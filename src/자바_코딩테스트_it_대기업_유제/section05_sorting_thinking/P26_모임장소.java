@@ -2,7 +2,7 @@ package 자바_코딩테스트_it_대기업_유제.section05_sorting_thinking;
 
 import java.util.ArrayList;
 
-public class P25_모임장소 {
+public class P26_모임장소 {
 	public int solution(int[][] board) {
 		int answer = Integer.MAX_VALUE;
 		int n = board.length;
@@ -31,7 +31,7 @@ public class P25_모임장소 {
 	}
 
 	public static void main(String[] args) {
-		P25_모임장소 T = new P25_모임장소();
+		P26_모임장소 T = new P26_모임장소();
 		System.out.println(T.solution(
 				new int[][]{{1, 0, 0, 0, 0}, {0, 0, 0, 0, 0}, {0, 0, 0, 0, 1}, {0, 0, 0, 0, 0}, {0, 0, 1, 0, 0}}));
 		System.out.println(T.solution(

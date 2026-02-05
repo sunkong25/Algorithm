@@ -2,7 +2,7 @@ package 자바_코딩테스트_it_대기업_유제.section05_sorting_thinking;
 
 import java.util.Arrays;
 
-public class S26_멀티태스킹 {
+public class S27_멀티태스킹 {
 	public int solution(int[] tasks, long k) {
 		int answer = 0;
 		int[] sT = new int[tasks.length + 1];
@@ -30,7 +30,7 @@ public class S26_멀티태스킹 {
 	}
 
 	public static void main(String[] args) {
-		S26_멀티태스킹 T = new S26_멀티태스킹();
+		S27_멀티태스킹 T = new S27_멀티태스킹();
 		System.out.println(T.solution(new int[]{1, 2, 3}, 5));
 		System.out.println(T.solution(new int[]{8, 5, 2, 9, 10, 7}, 30));
 		System.out.println(T.solution(new int[]{8, 9, 12, 23, 45, 16, 25, 50}, 100));

@@ -2,7 +2,7 @@ package 자바_코딩테스트_it_대기업_유제.section05_sorting_thinking;
 
 import java.util.Arrays;
 
-public class P24_카드가져가기 {
+public class P25_카드가져가기 {
 	public int solution(int[] nums, int k) {
 		int answer = 0;
 
@@ -23,7 +23,7 @@ public class P24_카드가져가기 {
 	}
 
 	public static void main(String[] args) {
-		P24_카드가져가기 T = new P24_카드가져가기();
+		P25_카드가져가기 T = new P25_카드가져가기();
 		System.out.println(T.solution(new int[]{7, 8, 5, 12, 3, 1, 3, 1, 1, 12}, 2));
 		System.out.println(T.solution(new int[]{8, 2, 12, 12, 12, 12, 2, 2}, 2));
 		System.out.println(T.solution(new int[]{3, 7, 12, 3, 3, 5, 7, 8, 9, 11, 23, 4, 6, 7}, 3));
