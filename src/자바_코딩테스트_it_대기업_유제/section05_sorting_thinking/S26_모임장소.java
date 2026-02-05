@@ -3,7 +3,7 @@ package 자바_코딩테스트_it_대기업_유제.section05_sorting_thinking;
 import java.util.ArrayList;
 import java.util.Collections;
 
-public class S25_모임장소 {
+public class S26_모임장소 {
 	public int solution(int[][] board){
 		int answer=0;
 		ArrayList<Integer> row = new ArrayList<>();
@@ -32,7 +32,7 @@ public class S25_모임장소 {
 	}
 
 	public static void main(String[] args){
-		S25_모임장소 T = new S25_모임장소();
+		S26_모임장소 T = new S26_모임장소();
 		System.out.println(T.solution(new int[][]{{1, 0, 0, 0, 0}, {0, 0, 0, 0, 0}, {0, 0, 0, 0, 1}, {0, 0, 0, 0, 0}, {0, 0, 1, 0, 0}}));
 		System.out.println(T.solution(new int[][]{{1, 0, 0, 0, 1}, {0, 0, 0, 0, 0}, {0, 0, 0, 0, 0}, {0, 0, 0, 0, 0}, {0, 0, 0, 1, 0}}));
 		System.out.println(T.solution(new int[][]{{1, 0, 0, 0, 1, 1}, {0, 1, 0, 0, 1, 0}, {0, 1, 0, 0, 0, 0}, {0, 0, 0, 0, 1, 0}, {0, 0, 0, 0, 0, 1}, {1, 0, 0, 0, 1, 1}}));
