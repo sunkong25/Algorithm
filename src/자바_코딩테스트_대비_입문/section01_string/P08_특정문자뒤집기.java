@@ -1,0 +1,39 @@
+package 자바_코딩테스트_대비_입문.section01_string;
+
+import java.util.Scanner;
+
+public class P08_특정문자뒤집기 {
+	public String solution(String input) {
+		String answer = "";
+
+		char[] c = input.toCharArray();
+		int lt = 0, rt = c.length - 1;
+
+		while (lt < rt) {
+			if (Character.isAlphabetic(c[lt]) && Character.isAlphabetic(c[rt])) {
+				char tmp = c[lt];
+				c[lt] = c[rt];
+				c[rt] = tmp;
+				lt++;
+				rt--;
+				continue;
+			}
+
+			if (!Character.isAlphabetic(c[lt])) {
+				lt++;
+			}
+			if (!Character.isAlphabetic(c[rt])) {
+				rt--;
+			}
+		}
+		answer = String.valueOf(c);
+		return answer;
+	}
+	public static void main(String[] args) {
+		P08_특정문자뒤집기 T = new P08_특정문자뒤집기();
+		Scanner sc = new Scanner(System.in);
+
+		String input = sc.next();
+		System.out.println(T.solution(input));
+	}
+}
