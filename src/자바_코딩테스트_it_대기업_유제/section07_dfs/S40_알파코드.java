@@ -22,7 +22,7 @@ public class S40_알파코드 {
 	}
 
 	public static void main(String[] args) {
-		P40_알파코드 T = new P40_알파코드();
+		S40_알파코드 T = new S40_알파코드();
 		System.out.println(T.solution("25114"));
 		System.out.println(T.solution("23251232"));
 		System.out.println(T.solution("21020132"));
